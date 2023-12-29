@@ -6,7 +6,7 @@
 /*   By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 11:54:42 by beredzhe          #+#    #+#             */
-/*   Updated: 2023/12/01 09:40:34 by beredzhe         ###   ########.fr       */
+/*   Updated: 2023/12/23 12:56:54 by beredzhe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,53 +66,53 @@ char	**ft_split(char const *s, char c)
 	return (arr);
 }
 
-// void print_str_array(char **arr)
+// void	print_str_array(char **arr)
 // {
-// 	while (*arr != NULL)
-// 	{
-// 		printf("%s\n", *arr);
-// 		arr++;
-// 	}
+// while (*arr != NULL)
+// {
+// 	printf("%s\n", *arr);
+// 	arr++;
+// }
 // }
 
 // // Function to free the memory allocated for the array of strings
-// void free_str_array(char **arr)
+// void	free_str_array(char **arr)
 // {
-// 	char	**temp = arr;
-// 	while (*temp != NULL)
-// 	{
-// 		free(*temp);
-// 		temp++;
-// 	}
-// 	free(arr);
+// char	**temp = arr;
+// while (*temp != NULL)
+// {
+// 	free(*temp);
+// 	temp++;
+// }
+// free(arr);
 // }
 
 // int	main()
 // {
-// 	// Test count_words function
-// 	char *test_string = "This is a test string";
-// 	char delimiter = ' ';
-// 	int word_count = count_words(test_string, delimiter);
+// // Test count_words function
+// char	*test_string = "This is a test string";
+// char	delimiter = ' ';
+// int	word_count = count_words(test_string, delimiter);
 
-// 	printf("Word count: %d\n", word_count);
+// printf("Word count: %d\n", word_count);
 
-// 	// Test ft_split function
-// 	char **result = ft_split(test_string, delimiter);
+// // Test ft_split function
+// char	**result = ft_split(test_string, delimiter);
 
-// 	// Print the result
-// 	if (result != NULL)
-// 	{
-// 		printf("Original string: %s\n", test_string);
-// 		printf("Split string:\n");
-// 		print_str_array(result);
+// // Print the result
+// if (result != NULL)
+// {
+// 	printf("Original string: %s\n", test_string);
+// 	printf("Split string:\n");
+// 	print_str_array(result);
 
-// 		// Free the allocated memory
-// 		free_str_array(result);
-// 	}
-// 	else
-// 	{
-// 		printf("Error: ft_split returned NULL.\n");
-// 	}
+// 	// Free the allocated memory
+// 	free_str_array(result);
+// }
+// else
+// {
+// 	printf("Error: ft_split returned NULL.\n");
+// }
 
-// 	return 0;
+// return 0;
 // }

@@ -6,13 +6,13 @@
 #    By: beredzhe <beredzhe@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/14 08:50:20 by beredzhe          #+#    #+#              #
-#    Updated: 2023/12/02 14:31:18 by beredzhe         ###   ########.fr        #
+#    Updated: 2023/12/27 13:31:08 by beredzhe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libft.a
 
-CC		=	gcc
+CC		=	cc
 
 CFLAGS	=	-Wall -Wextra -Werror
 
@@ -82,6 +82,6 @@ clean:
 fclean: clean
 	rm -rf $(NAME)
 
-re: fclean all
+re: fclean allx§
 
 .PHONY: all bonus clean fclean re
